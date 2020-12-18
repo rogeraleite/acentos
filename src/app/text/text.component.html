@@ -1,0 +1,11 @@
+<div class="example-container">
+    <mat-form-field appearance="fill">
+      <mat-label>Textarea</mat-label>
+      <textarea matInput #input></textarea>
+    </mat-form-field>
+    <br>    
+    <button mat-raised-button (click)="parseText(input.value)">Get Acentos</button>
+    <br>
+    <br>
+    {{cooked_text}}
+</div>
